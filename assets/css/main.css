@@ -817,7 +817,8 @@ table.alt tfoot {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url("https://images.unsplash.com/photo-1672746509961-6340a9808970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1672746509961-6340a9808970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3540&q=80"); */
+  background-image: url('../../images/artportfolio.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -911,7 +912,7 @@ body.is-preload #bg:before {
     -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
     opacity 0.325s ease-in-out;
-  background-image: -moz-radial-gradient(
+  /* background-image: -moz-radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
     rgba(0, 0, 0, 0) 55%
   );
@@ -926,7 +927,7 @@ body.is-preload #bg:before {
   background-image: radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
     rgba(0, 0, 0, 0) 55%
-  );
+  ); */
   max-width: 100%;
   text-align: center;
 }
@@ -1500,7 +1501,7 @@ input:focus, textarea:focus {
   font-size: 1.6rem;
   font-weight: bold;
   color: rgba(99, 158, 71, 0.986);
-  color: white;
+  color: black;
 }
 
 #jobRole {
